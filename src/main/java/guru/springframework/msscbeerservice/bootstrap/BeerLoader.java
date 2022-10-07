@@ -28,7 +28,7 @@ public class BeerLoader implements CommandLineRunner {
                     .quantityToBrew(200)
                     .minOnHand(12)
                     .upc(333332235557L)
-                    .price(new BigDecimal(12.04))
+                    .price(new BigDecimal("12.04"))
                     .build());
             beerRepository.save(Beer.builder()
                     .beerName("Galaxy Cat")
@@ -36,7 +36,7 @@ public class BeerLoader implements CommandLineRunner {
                     .quantityToBrew(200)
                     .minOnHand(12)
                     .upc(33454435557L)
-                    .price(new BigDecimal(11.24))
+                    .price(new BigDecimal("11.24"))
                     .build());
         }
         System.out.println("Loaded Beers: "+beerRepository.count());
