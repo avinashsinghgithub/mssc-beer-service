@@ -12,4 +12,5 @@ import java.io.Serializable;
 public class BeerEvent implements Serializable {
     static final long serialVersionUID = 474747464646L;
     private final BeerDto beerDto;
+
 }
