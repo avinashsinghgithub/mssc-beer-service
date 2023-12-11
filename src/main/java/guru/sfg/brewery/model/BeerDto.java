@@ -56,4 +56,6 @@ public class BeerDto implements Serializable {
 
     private Integer quantityOnHand;
 
+    public static class BeerDtoBuilder{}
+
 }
