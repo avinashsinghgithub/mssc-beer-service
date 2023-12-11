@@ -34,8 +34,9 @@
             <artifactId>ehcache</artifactId>
         </dependency>
     </dependencies>
-
-  <scm>
-    <tag>mssc-beer-service-0.0.1</tag>
-  </scm>
+<scm>
+    <connection>scm:git:git@github.com:avinashsinghgithub/mssc-beer-service.git</connection>
+    <developerConnection>scm:git:git@github.com:avinashsinghgithub/mssc-beer-service.git</developerConnection>
+    <url>https://github.com/avinashsinghgithub/mssc-beer-service</url>
+</scm>
 </project>
